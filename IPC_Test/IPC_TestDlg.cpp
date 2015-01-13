@@ -105,9 +105,9 @@ BOOL CLocalPlayDlg::OnInitDialog()
 	SetIcon(m_hIcon, FALSE);		// Set small icon
 
 	// TODO: Add extra initialization here
-	SetDlgItemText(IDC_EDIT2, L"abPhoto ");
-	SetDlgItemText(IDC_EDIT3, L"--command load --type Photo --pbjectId \"123456789 987654321\"");
-	SetDlgItemText(IDC_EDIT4, L"C:\\Program Files (x86)\\Acer\\abPhoto\\abPhoto.exe");
+	SetDlgItemText(IDC_EDIT2, L"window_name");
+	SetDlgItemText(IDC_EDIT3, L"argument");
+	SetDlgItemText(IDC_EDIT4, L"executable_path");
 
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
